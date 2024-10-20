@@ -1,0 +1,14 @@
+[user]
+	name = paullyy8
+	email = 
+
+[init]
+	defaultBranch = main
+[core]
+  editor = code
+[alias]
+	d = diff
+	co = checkout
+	cm = commit
+	st = status
+	a = add

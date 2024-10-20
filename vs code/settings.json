@@ -1,0 +1,95 @@
+{
+  // VS Code Meta Settings
+  "files.autoSave": "afterDelay",
+  "workbench.startupEditor": "none",
+
+  // Text Editing
+  "editor.wordWrap": "on",
+  "editor.tabSize": 2,
+  "editor.fontSize": 16,
+  "editor.fontFamily": "Cascadia Code, Fira Code",
+  "editor.fontLigatures": true,
+  "editor.minimap.enabled": false,
+
+  // Cursor Settings
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorWidth": 3,
+
+  // UI Customizations
+  "workbench.productIconTheme": "material-product-icons",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Serendipity Sunset",
+  "workbench.layoutControl.enabled": false,
+  "window.commandCenter": false,
+
+  // UI Color Customizations
+  "workbench.colorCustomizations": {
+    "[Material Theme Palenight]": {
+      "activityBarBadge.background": "#64FFDA",
+      "activityBar.activeBorder": "#64FFDA",
+      "list.activeSelectionForeground": "#64FFDA",
+      "list.inactiveSelectionForeground": "#64FFDA",
+      "list.highlightForeground": "#64FFDA",
+      "scrollbarSlider.activeBackground": "#64FFDA50",
+      "editorSuggestWidget.highlightForeground": "#64FFDA",
+      "textLink.foreground": "#64FFDA",
+      "progressBar.background": "#64FFDA",
+      "pickerGroup.foreground": "#64FFDA",
+      "tab.activeBorder": "#64FFDA",
+      "notificationLink.foreground": "#64FFDA",
+      "editorWidget.resizeBorder": "#64FFDA",
+      "editorWidget.border": "#64FFDA",
+      "settings.modifiedItemIndicator": "#64FFDA",
+      "settings.headerForeground": "#64FFDA",
+      "panelTitle.activeBorder": "#64FFDA",
+      "breadcrumb.activeSelectionForeground": "#64FFDA",
+      "menu.selectionForeground": "#64FFDA",
+      "menubar.selectionForeground": "#64FFDA",
+      "editor.findMatchBorder": "#64FFDA",
+      "selection.background": "#64FFDA40",
+      "statusBarItem.remoteBackground": "#64FFDA"
+    }
+  },
+
+  // Terminal Settings
+  "terminal.integrated.fontSize": 14,
+
+  // Live Server Settings
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+
+  // Code Runner Settings
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.runInTerminal": true,
+
+  // Git Settings
+  "git.enableSmartCommit": true,
+  "git.openRepositoryInParentFolders": "always",
+  "git.autofetch": true,
+  "git.confirmNoVerifyCommit": false,
+  "git.confirmSync": false,
+  "git.ignoreMissingGitWarning": true,
+  "gitlens.gitCommands.skipConfirmations": [
+    "fetch:command",
+    "stash-push:command",
+    "switch:command",
+    "push:command"
+  ],
+  "gitlens.hovers.currentLine.over": "line",
+
+  // File Exclusions
+  "files.exclude": {
+    "": true,
+    "**/.git": false,
+    "**/CVS": false
+  },
+
+  // Editor Associations
+  "workbench.editorAssociations": {
+    "{git,gitlens}:/**/*.{md,csv,svg}": "default"
+  },
+
+  // Material Theme Settings
+  "materialTheme.accent": "Bright Teal"
+}
